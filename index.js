@@ -2,14 +2,14 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware để phân tích body thông tin
+// Middleware to parse request body
 app.use(express.json());
 
-// API Endpoint mẫu
+// Sample API Endpoint
 app.get('/', (req, res) => {
-    res.send('Chào mừng đến với Hệ Thống Giao Dịch Bitcoin Việt Nam!');
+    res.send('Welcome to the Vietnam Bitcoin Trading System!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Server đang chạy tại http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${PORT}`);
 });
