@@ -1,0 +1,13 @@
+{
+  "name": "he-thong-giao-dich-btc-vn",
+  "version": "1.0.0",
+  "description": "Hệ thống giao dịch Bitcoin tại Việt Nam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No test specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
